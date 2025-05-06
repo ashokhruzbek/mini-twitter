@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background: #000;
+    padding: 0 7%;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.inp-username,
+.inp-parol,
+.inp-name {
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+
+.button {
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    letter-spacing: 1.5px;
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    letter-spacing: 5px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    color: white;
+    height: 100vh;
+}
+
+.nav-link {
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-icon {
+    height: 50px;
+    background: transparent;
+    transition: all 0.3s linear;
+    filter: invert(1);
+    padding: 0.5rem;
+}
+
+.logo {
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem 0.5rem;
+}
+.icon-hover {
+    width: 200px;
+    height: 40px;
+}
+
+.icon-hover:hover {
+    width: 200px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.logo:hover {
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.post-list {
+    width: 600px;
+    margin: 10px auto;
+}
+
+.post-item {
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    margin: 20px auto;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+h3 {
+    color: white;
+}
+
+.commentSpace {
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.comment {
+    margin-top: 3px;
+    padding: 0px;
+}
+
+.commentBtn {
+    border: 2px solid #333;
+}
+
+.commentInput {
+    border: 2px solid #333;
+}
+
+.form-control:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0;
+}
+
+.form-control::placeholder {
+    
+}
